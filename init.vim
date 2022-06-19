@@ -2,6 +2,7 @@ call plug#begin(expand('~/.config/nvim/plugged'))
 Plug 'justinmk/vim-sneak'
 Plug 'jacoborus/tender.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'vim-airline/vim-airline'
 call plug#end()
 set tabstop=4 shiftwidth=4 expandtab
 set number
